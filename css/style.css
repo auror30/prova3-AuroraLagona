@@ -1,0 +1,58 @@
+body { 
+    background-color: black;
+    color: rosybrown;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img { 
+    max-width: 100%;
+}
+
+h1,h2,li,ul,p { 
+    margin: 100;
+    padding: 100;
+
+}
+
+header { 
+    max-width: 1120px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0;
+}
+
+header nav ul { 
+    display: flex;
+    list-style: none;
+    padding: 120px 20px;
+    gap: 16px;
+}
+
+header p { 
+    font-weight: bold;
+}
+
+header nav ul a { 
+    text-decoration: none;
+    color: rosybrown;
+}
+
+header nav ul a:hover { 
+    text-decoration: underline;
+    color: white;
+}
+
+.info { 
+    display: grid;
+    max-width: 1128px;
+    margin: auto;
+    grid-template-columns: 3fr 1fr;
+    gap: 128px;
+}
+
+.info h1 { 
+    font-size: 72px;
+    line-height: 1.1;
+}
